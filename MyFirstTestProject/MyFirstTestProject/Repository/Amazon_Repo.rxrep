@@ -1,0 +1,118 @@
+﻿<repository
+id="cecfd7b2-d028-4f3f-87d8-6660d7d3a988"
+name="Amazon_Repo"
+rxversion="8.2">
+	<codegen
+	classname="Amazon_Repo"
+	namespace="MyFirstTestProject.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="54894421-98c9-40c2-8bbd-3eaa77816017"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="f7541bf3-b009-4c72-9034-720ad19a1126"
+		isrooted="True"
+		name="AmazonComOnlineShoppingForElectron"
+		refimgid="be45afbe-bf1f-48d3-b73f-7328aa283efc"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="ece87dec-52a6-4c23-aec5-00016d3d1eab"
+			name="link_Login"
+			refimgid="c8313eee-8c8c-429b-91a0-d840cc041408"
+			searchtimeout="30000ms">
+				/dom[@domain=$strWebAddress]//a[#$strLoginId]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b910b2a7-bb26-458f-88e4-c2bdf2bcc6a2"
+			name="txt_UserName"
+			refimgid="019ffdce-bf14-4c15-8189-0753afda82bf"
+			searchtimeout="30000ms">
+				/dom[@domain=$strWebAddress]//input[#'ap_email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6fc068c2-d2ba-44a6-aa0b-77514fe938f3"
+			name="btn_Continue"
+			refimgid="ae47e5ac-edea-4f5a-bd2e-1c89ab6975c1"
+			searchtimeout="30000ms">
+				/dom[@domain=$strWebAddress]//span[#'continue']/?/?/input[@id='continue']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c6ab7376-458e-4175-83a2-064ff566097d"
+			name="txt_SearchBar"
+			refimgid="33bc60bf-a7e1-47fd-ace9-9b0037ba4fa3"
+			searchtimeout="30000ms">
+				/dom[@domain=$strWebAddress]//input[#'twotabsearchtextbox']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="47ed2c83-6cfd-4d6f-8e00-204ffe961325"
+			name="txt_Password"
+			refimgid="0ceb7802-ac09-4ba2-89bd-b56063e94c87"
+			searchtimeout="30000ms">
+				/dom[@domain=$strWebAddress]//input[#'ap_password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8fa3d2ef-a68d-452f-a035-252bedb2dc9b"
+			name="btn_Login"
+			refimgid="92d2fbfe-fa7e-4783-ad20-47a27368de90"
+			searchtimeout="30000ms">
+				/dom[@domain=$strWebAddress]//input[#'signInSubmit']
+			</item>
+			<basepath>
+				/dom[@domain=$strWebAddress]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="8aa6feb7-aeca-40d7-82fc-cd095ca9b97e"
+		name="strLoginLink">
+			nav-link-accountList
+		</var>
+		<var
+		id="170effa9-de9d-4ffe-aac6-d6a0137cf229"
+		name="strWebAddress">
+			www.amazon.com
+		</var>
+		<var
+		id="0f744b69-af28-41ed-b1d9-02189d70f132"
+		name="strLoginId">
+			nav-link-yourAccount
+		</var>
+	</variables>
+</repository>
